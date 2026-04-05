@@ -10,17 +10,14 @@ html, body {
     overflow: hidden;
 }
 
-body {
-    display: flex;
-    justify-content: center;
-}
-
 .container {
     max-width: 355px;
     width: 100%;
-    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
-
 
 a {
     text-decoration: none;
@@ -28,7 +25,7 @@ a {
 
 .img-yoga {
     display: block;
-    margin: -24px auto 45px auto;
+    margin: 0 auto 42px auto;
 }
 
 input {
