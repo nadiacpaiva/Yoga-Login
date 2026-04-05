@@ -6,8 +6,8 @@
     background-color: #E5E5E5;
 }
 
-html, body {
-    overflow: hidden;
+body {
+    height: 100vh;
 }
 
 .container {
@@ -25,12 +25,12 @@ a {
 
 .img-yoga {
     display: block;
-    margin: 0 auto 42px auto;
+    margin: 0 auto 100px auto;
 }
 
 input {
-    width: 92%;
-    height: 45px;
+    width: 95%;
+    height: 50px;
     background: #f7f7f7;
     box-shadow: -4px 4px 18px rgb(0 0 0 / 9%);
     border-radius: 10px;
@@ -38,7 +38,7 @@ input {
     margin: 0 auto 12px auto;
     display: block;
     outline: none;
-    padding-left: 12px;
+    padding-left: 14px;
 }
 
 input::placeholder {
@@ -50,7 +50,7 @@ input::placeholder {
 }
 
 .input-password {
-    margin-top: 16px;
+    margin-top: 24px;
 }
 
 .forgot-password  {
@@ -59,7 +59,7 @@ input::placeholder {
     font-size: 13px;
     line-height: 15px;
     color: #000000;
-    margin: 28px 28px 30px 0;
+    margin: 30px 20px 32px 0;
     display: block;
     text-align: right;
 }
@@ -70,8 +70,8 @@ button {
     background: #323232;
     box-shadow: -4px 4px 18px rgb(0 0 0 / 9%);
     border-radius: 10px;
-    width: 132px;
-    height: 44px;
+    width: 136px;
+    height: 46px;
     border: none;
     font-style: normal;
     font-weight: normal;
@@ -82,8 +82,8 @@ button {
 
 .link-signup {
     display: block;
-    margin-top: 20px;
-    margin-bottom: 48px;
+    margin-top: 24px;
+    margin-bottom: 50px;
     text-align: center;
     font-style: normal;
     font-weight: normal;
